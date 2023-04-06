@@ -1,6 +1,6 @@
 const promise = new Promise((resoleve, reject)=>{
     setTimeout(()=>{
-        reject('입장');
+        reject('입장!');
     }, 3000);
 });
 promise.then(value=>{
