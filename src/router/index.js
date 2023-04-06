@@ -3,6 +3,6 @@ const promise = new Promise((resoleve, reject)=>{
         reject('입장!');
     }, 3000);
 });
-promise.then(value=>{
+promise.then(value=>{ 
     console.log(value);
 })
